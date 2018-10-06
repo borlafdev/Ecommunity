@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TadHack2018</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+.admin a::nth-child(1){
+	color: #fff;
+}
+main{
+	height: 140%;
+}
+	.next{
+		border:0;
+		padding:0;
+		margin: 20px auto 0 auto;
+	}
+	.nbig{
+		width: 100% ;
+	}
+	.xt{
+		margin-bottom:20px;
+	}
+	.green {
+		font-weight: 700;
+		color:#3bf2a6 ;
+	}
+	.next strong {
+    font-size: 1.1em;
+}
+.add{
+	display: none;
+}
+div.content {
+	height:360px;
+}
+div.content{
+	height:515px;
+}
+</style>
+<body>
+<main>
+<!--NAV-->
+<a href="comunity.html" class="logo"></a>
+<nav class="admin">	
+<a href="comunity.html">Comunity</a>
+<a href="recycler.html">Recycler</a>
+<a href="supervisor.html">Supervisor</a>
+</nav>
+<nav>
+<button id="menux" onClick="menu()"></button>
+</nav>
+<nav class="menu" id="menu">
+	<a href="comunity.html" class="nav home2">&nbsp</a> 
+	<a href="comunity-statistics.html" class="nav">Comunity</a> 
+	<a href="comunity-categories.html" class="nav">Sorting</a>
+	<a href="comunity-calendar.html" class="nav">Calendar</a>
+	<a href="comunity-recyclers.html" class="nav">Recyclers</a>
+	<a href="comunity-pick-up.html" class="nav">Pick-up</a>
+</nav>
+<!--NAV-->
+
+
+	<div class="avatar stats drop"></div>
+	<h1>Comunity 01
+		 <p>Members</p>
+	</h1>
+	<h2>24</h2>
+
+<div class="content drop">
+	<div class="next xt">
+		<i class="coins"></i> 
+			<p>Total Points</p>		
+			<strong>2435</strong> 
+	</div>
+	<div class="next nbig">
+		<i class="handshake"></i> 
+			<p>Recyclers:</p>		
+			<strong class="handshake">Recycler 01</strong> 
+	</div>
+	<div class="next ">
+		<i class="leaf"></i> 
+			<p><strong class="green">Congratulations!</strong></p>	
+			<p>You saved a total C02 emmision of</p>	
+			<strong class="green">74kg</strong>
+	</div>
+	<div class="add">
+		<button class="drop">Pick-up</button>
+	</div>
+</div>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>

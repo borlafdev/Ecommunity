@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TadHack2018</title>
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.fichacont{
+			display: flex;
+		}
+		.ficha{
+			background-color: #fff;
+			width: 50%;
+			border-radius: 10px;
+			margin: 3px;
+		}
+		.next{
+			width: auto;
+			padding: 0;
+			border: 0;
+			margin: 20px auto 30px auto;
+
+		}
+		.fichacont{
+			box-sizing: border-box;
+			padding:0 1em;
+		}
+	</style>
+</head>
+<body>
+<main>
+	
+
+<!--NAV-->
+<a href="comunity.html" class="logo"></a>
+<nav class="admin">	
+<a href="comunity.html">Comunity</a>
+<a href="recycler.html">Recycler</a>
+<a href="supervisor.html">Supervisor</a>
+</nav>
+<nav>
+<button id="menux" onClick="menu()"></button>
+</nav>
+<nav class="menu" id="menu">
+	<a href="comunity.html" class="nav home2">&nbsp</a> 
+	<a href="comunity-statistics.html" class="nav">Comunity</a> 
+	<a href="comunity-categories.html" class="nav">Sorting</a>
+	<a href="comunity-calendar.html" class="nav">Calendar</a>
+	<a href="comunity-recyclers.html" class="nav">Recyclers</a>
+	<a href="comunity-pick-up.html" class="nav">Pick-up</a>
+</nav>
+<!--NAV-->
+
+	<div class="avatar home drop"></div>
+	<h1>Materials
+	</h1>
+<br><br>
+<div class="fichacont">
+	<div class="ficha drop">
+		<div class="next">
+			<i class="alarmx plastic "></i> 
+					
+				<strong>Plastic</strong> <br>
+				<p class="type"><strong>Recyclers: <br></strong>Recycler 01</p>	
+		</div>
+		<div class="add">
+		</div>
+	</div>
+	<div class="ficha drop">
+		<div class="next">
+			<i class="alarmx glass"></i> 
+						
+				<strong>Glass</strong> <br>
+				<p class="type"><strong>Recyclers: <br></strong>Recycler 01</p>	
+		</div>
+		<div class="add">
+		</div>
+	</div>
+</div>
+<div class="fichacont">
+	<div class="ficha drop">
+		<div class="next">
+			<i class="alarmx metal"></i> 
+					
+				<strong>Metal</strong> <br>
+				<p class="type"><strong>Recyclers: <br></strong>Recycler 01</p>	
+		</div>
+		<div class="add">
+		</div>
+	</div>
+	<div class="ficha drop">
+		<div class="next">
+			<i class="alarmx paper"></i> 
+					
+				<strong>Paper</strong> <br>
+				<p class="type"><strong>Recyclers: <br></strong>Recycler 01</p>	
+		</div>
+		<div class="add">
+		</div>
+	</div>
+</div>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>
